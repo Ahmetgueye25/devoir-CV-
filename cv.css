@@ -9,6 +9,13 @@ header{
     background-color: #17abb3;
     color: white;
 }
+.identite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;  
+    text-align: center;
+}
 .image{
     margin: 50px 100px 50px 100px;
 }
@@ -16,6 +23,14 @@ header{
     width: 60px;
     height: auto;
     color: #17abb3;
+    
+}
+.img{
+    width: 180px;
+    height: 180px;
+    border: 6px solid white;
+    border-radius: 50%;
+    transition: transform .1s;
 }
 .image img:hover{
     cursor: zoom-in;
@@ -26,12 +41,14 @@ h1{
     margin-bottom: 10px;
     width: 400px;
     text-align: center;
-}.photo{
+}
+.photo{
     width: 150px;
     height: 150px;
     border: 10px solid white;
     border-radius: 50%;
-}.identité div{
+}
+.identité div{
     width: 400px;
     display: flex;
     flex-wrap: wrap;
@@ -186,7 +203,8 @@ ul{
 }
 h2{
     margin-block: 0;
-}h2,.date{
+}
+h2,.date{
     color: #17abb3;
 }
 .date{
@@ -245,15 +263,31 @@ footer div{
     /* justify-content: space-evenly; */
     align-items: center;
 }
-footer div a div {
+footer div div a div {
     display: block;
 }
-footer div a div {
+footer div div a div {
     width: auto;
     display: flex; 
     justify-content: space-around;
     height: 20px;
     padding: 0 20px;
 }
+footer div div{
+    margin-top: 10px;
+}
+footer div{
+    background-color: #17abb3;
+    text-align: center;
+    margin-block: 0;
+    font-size: 16px;
+    color: white;
+    font-style: italic;
+    height: auto;
+}
+footer .footer P{
+    margin-block: 0;
+    margin-top: 5px;
+    font-size: 14px;
+}
 
- 
