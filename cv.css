@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1,h2,h3{
+    font-family: "lato", sans-serif;
+}
+header{
+    background-color: #17abb3;
+    color: white;
+}
+.image{
+    margin: 50px 100px 50px 100px;
+}
+.etoile{
+    width: 60px;
+    height: auto;
+    color: #17abb3;
+}
+.image img:hover{
+    cursor: zoom-in;
+}
+h1{
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 400px;
+    text-align: center;
+}.photo{
+    width: 150px;
+    height: 150px;
+    border: 10px solid white;
+    border-radius: 50%;
+}.identité div{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 5px;
+}
+.profil{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    text-align: center;
+    margin-left: 200px;
+}
+.profil .h2{
+    color: white;
+    text-align: center;
+    width: 400px;
+    padding-bottom: 10px;
+}
+.profil div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    width: 400px;
+    text-align: center;
+}
+.profil div .icone a .icone1 img{
+    display: block;
+}
+.profil div .icone a div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profil div .icone{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+.profil div a,footer div a{
+    text-decoration: none;
+    color: white;
+}
+.profil div .icone a div,.profil div .icone div{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+.profil div a div img{
+    width: 15px;
+}
+.profil div div a div img{
+    width: 15px;
+    height: 16px;
+    margin-right: 5px;
+}
+.profil div div a div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.permis{
+    display: flex;
+    align-items: center;
+}
+div div div img{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 15px;
+    height: 16px;
+    margin-right: 5px;
+}
+.identité div p{
+    margin: 0;
+}
