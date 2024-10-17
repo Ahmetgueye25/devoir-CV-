@@ -112,3 +112,124 @@ div div div img{
 .identité div p{
     margin: 0;
 }
+.cv{
+    display: flex;
+    flex-direction: column;
+    width: 1160px;
+    margin: 0 auto;
+    background-color: white;
+}
+body{
+    padding-top: 50px;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    width: 1220px;
+    font-family: "raleway", sans-serif;
+}
+.section1 article div div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    list-style: square;
+    color: #17abb3;
+}
+ul li span{
+    color: black;
+    padding-top: 3px;
+    /* font-weight: 450; */
+}
+li{
+    padding-top: 2px;
+}
+main{
+    /* width: 1160px; */
+    width: 100%;
+    height: max-content;
+    display: flex;
+}
+hr{
+    color: #f5f5f5;
+    margin-bottom: 20px;
+}
+ul{
+    padding-left: 20px;
+}
+.section1{
+    background-color: #E3E3E3;
+    /* width: 275px; */
+    width: 28%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.section1 article div{
+    line-height: 35px;
+    margin-block-start: 0;
+}
+.langage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.langage p{
+    margin-block: 1px;
+}
+.section1 article{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+}
+h2{
+    margin-block: 0;
+}h2,.date{
+    color: #17abb3;
+}
+.date{
+    display: flex;
+    align-items: center;
+}
+.section2{
+    padding-top: 20px;
+    background-color: white;
+    width: 72%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+}
+.trait:hover{
+    border-left: 5px solid #17abb3;
+    background-color: #E3E3E3;
+}
+.section2 div .p{
+    text-align: justify;
+    text-indent: 30px;
+    margin-block: 0;
+}
+.section2 div .p1{
+    padding-bottom: 20px;
+}
+.section2 .div{
+    display: flex;
+    justify-content: space-between;
+}
+.section2 .div .div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-block-start: 0;
+    margin-block-end: 20px;    
+}
+.section2 .div .div1 p{
+    margin-block: 0;
+    /* text-emphasis: 1px; */
+}
+h3{
+    font-size: 16px;
+    margin-block: 0;
+    margin-bottom: 0;
+}
