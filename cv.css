@@ -290,4 +290,7 @@ footer .footer P{
     margin-top: 5px;
     font-size: 14px;
 }
-
+.socialmedia:hover{
+    opacity: 0.7;
+    width: 100px;
+}
